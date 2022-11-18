@@ -1,0 +1,42 @@
+.conteiner {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 30px auto;
+}
+
+.div-text {
+    margin: 20px 0;
+}
+
+.table td, .table th {
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+.table th {
+    background-color: bisque;
+}
+
+.block {
+    position: relative;
+    width: 300px;
+    height: fit-content;
+    border: 1px solid #555;
+    border-radius: 3px;
+    padding: 5px;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: nw-resize;
+    display: block;
+    background-color: transparent;
+    border: 7px solid transparent;
+    border-right: 7px solid #555 ;
+    border-bottom: 7px solid #555;
+}
